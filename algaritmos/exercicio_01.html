@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt.br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>exercicio JavaScript</title>
+</head>
+<body>
+    <h1> Atividade de cadastro de dados de um professor</h1>
+    <p>nome: <span id="nome"></span></p>
+    <p>endereco: <span id="endereco"></span></p>
+    <p>cidade: <span id="cidade"></span> </p>
+   <p>UF: <span id="UF"></span></p>
+    <P>CEP: <span id="CEP"> </span></P>
+    <P>telefone: <span id= "telefone"></span></P>
+   <P>CPF: <span id="CPF"> </span></P> 
+    <P>RG: <span id="RG"></span></P>
+    <P>datadenascimento: <span id= "datadenascimento"></span></P>
+    <P>graudescolaridade:<span id="graudeescolaridade"></span></P>
+    <p>cursoleciona: <span id= "cursolecionado"></span></P>
+<script> 
+    let nome=prompt("digite o nome do professor");
+    let endereco=prompt("digite seu endereço");
+    let cidade=prompt ("digite sua cidade");
+    let UF=prompt ("digite sua UF");
+    let CEP=prompt ("digite seu cep");
+    let telefone=prompt ("digite seu telefone");
+    let CPF=prompt ("digite seu CPF");
+    let RG=prompt ("digite seu RG");
+    let datadenascimento=prompt ("digite sua data de nascimento");
+    let graudeescolaridade=prompt ("digite sua escolaridade");
+    let cursolecionado=prompt ("digite seu curso");
+
+    document.getElementById("nome").innerHTML= nome;
+    document.getElementById("endereco").innerHTML = endereco;
+    document.getElementById("cidade").innerHTML = cidade;
+    document.getElementById("UF").innerHTML=UF;
+    document.getElementById("CEP").innerHTML=CEP;
+    document.getElementById("telefone").innerHTML=telefone;
+    document.getElementById("CPF").innerHTML=CPF
+    document.getElementById("RG").innerHTML=RG;
+    document.getElementById("datadenascimento").innerHTML=datadenascimento;
+    document.getElementById("graudeescolaridade").innerHTML=graudeescolaridade;
+    document.getElementById("cursolecionado").innerHTML=cursolecionado
+</script>
+    
+    
+</body>
+</html>
